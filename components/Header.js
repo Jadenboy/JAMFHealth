@@ -1,6 +1,6 @@
 
 import classes from './Header.module.css';
-import Image from "next/image"
+import Image from "next/image";
 import Link from 'next/link';
 
 function Header(){
@@ -44,11 +44,11 @@ function Header(){
             </div>
 {/*----------------------Sign Links------------------------ */}
             <div className={classes.signlinks}>
-                <Link href='/Signup'>
+                <a href='/Signup'>
                     <div className={classes.sign}>Registrieren</div>
-                </Link>
+                </a>
                 <button>
-                <div className={classes.sign}>Anmelden</div>
+                <div className={classes.sign}>Login</div>
                 </button>
             </div>
         </div>
