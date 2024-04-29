@@ -47,9 +47,9 @@ function Header(){
                 <a href='/Signup'>
                     <div className={classes.sign}>Registrieren</div>
                 </a>
-                <button>
-                <div className={classes.sign}>Login</div>
-                </button>
+                <a href='/Login'>
+                    <div className={classes.sign}>Login</div>
+                </a>
             </div>
         </div>
     )

@@ -4,6 +4,7 @@ import classes from './Registrationinput.module.css';
 import Login from '@/pages/Login';
 function Registrationinput(){
     const[firstName, setFirstName] = useState("");
+    const[lastName, setlastName] = useState("");
     return(
         <div className={classes.signs}>
             <div className={classes.titel}>

@@ -16,7 +16,16 @@ function Logininput(){
             </div>
             <div className={classes.inputbox}>
                 <input type='text' value={password} placeholder='Passwort' className={classes.input}/>
-            </div>            
+            </div>        
+{/*----------------------Registrierung Button------------------------ */}            
+            <div className={classes.button}>
+                <button type='button'>Login</button>
+            </div>    
+{/*----------------------Verlinkung zum Login------------------------ */}              
+            <div className={classes.redirect}>
+                Haben Sie noch kein Konto?
+                <a href='/Signup' className={classes.redirector}>Registrieren</a>
+            </div>
         </div>
     )
 }

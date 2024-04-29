@@ -1,0 +1,28 @@
+.page {
+    background-color: #0F3341;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+
+.function{
+    padding: 20px;
+    padding-bottom: 20px;
+    height: 400px;
+    width: 400px;
+
+    background-color: white;
+    color: #0F3341;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
